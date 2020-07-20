@@ -1,0 +1,19 @@
+select upper(substr(Sname,1)) from s;
+
+select concat(upper(substr(sname,1,1)),lower(substr(sname,2))) from s;
+
+select  upper(sname) from s;
+
+select  lower(sname) from s;
+
+select lpad(sname,25,' ') from s;
+
+select replace (sname,'pe','aa') from s;
+
+select translate (sname,'pe','aa') from s;
+
+select sname,length(sname) from s;
+
+select * from s where soundex(sname) = soundex('sdya');
+
+select sname,status from s ;

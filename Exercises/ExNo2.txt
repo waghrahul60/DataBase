@@ -1,0 +1,15 @@
+select * from s order by city desc;
+
+select * from p order by city;
+
+select * from s where status between 10 and 20;
+
+select * from s where status > 10 and status < 20;
+
+select pname,weight from p where weight between 1 and 15;
+
+select * from p where pname like 'C%';
+
+select * from s where city like 'M%';
+
+select * from p where city like '__m%';
